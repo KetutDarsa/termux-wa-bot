@@ -1,5 +1,6 @@
 const help = (prefix, pushname) => {
-	return `✪═⟪ NINGA ZHUMAKE BOT MENU ⟫═✪
+	return `
+✪═⟪ NINGA ZHUMAKE BOT MENU ⟫═✪
 
 *AUTHOR : Jaya*
 *BOT TYPE : TERMUX*
