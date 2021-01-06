@@ -15,7 +15,6 @@ const help = (prefix) => {
 ┃
 ┣━━━━°❀ ❬ 𝙈𝙀𝘿𝙄𝘼 ❭ ❀°━━━⊱
 ┃
-┣➥ *${prefix}tts*
 ┣➥ *${prefix}tiktok*
 ┣➥ *${prefix}meme*
 ┣➥ *${prefix}memeindo*
@@ -58,7 +57,6 @@ const help = (prefix) => {
 ┣➥ *${prefix}blocklist*
 ┣➥ *${prefix}simi*
 ┣➥ *${prefix}wait*
-┣➥ *${prefix}fitnah*
 ┣➥ *${prefix}tiktokstalk*
 ┣➥ *${prefix}url2img*
 ┃
