@@ -149,6 +149,7 @@ async function starts() {
 			const isNsfw = isGroup ? nsfw.includes(from) : false
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
+	       const pushname = client.chats.get(mek.participant) === undefined ? (client.contacts[mek.key.remoteJid].notify ? client.contacts[mek.key.remoteJid].notify : "Kak") : (client.contacts[mek.participant].notify ? client.contacts[mek.participant].notify : "Kak")
 			const isUrl = (url) => {
 			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 			}
