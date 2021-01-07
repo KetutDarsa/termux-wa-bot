@@ -49,6 +49,10 @@ const help = (prefix, pushname) => {
 ║│ @jayasantika_26
 ║│2. Creator NINGA ZHUMAKE
 ║│ https://wa.me/6289524664142
+║│3. Join gc bot
+║│ https://chat.whatsapp.com/L9Kj3v2RvM3Bf8WvOf9cEQ
+║│4. Patuhi protokol kesehatan
+║│dan selalu memakai masker jika keluar
 ║╰───────────
 ║╭──❉ *PERATURAN* ❉──
 ║│1. JANGAN NELPON
