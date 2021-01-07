@@ -6,7 +6,8 @@ const help = (prefix, pushname) => {
 *BOT TYPE : TERMUX*
 
 ╔════════════════════
-║ Hai Kak ini adalah fitur bot
+║ Hai Kak ${pushname}
+║berikut beberapa fitur pada bot ini✨
 ╠════════════════════
 ║╭──❉ *INFO* ❉──
 ║│1. ${prefix}info
