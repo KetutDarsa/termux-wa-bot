@@ -13,6 +13,7 @@ const help = (prefix, pushname) => {
 ║│1. ${prefix}info
 ║│2. ${prefix}bugreport <lapor bug>
 ║│3. ${prefix}runtime
+║│4. ${prefix}testime
 ║│4. ${prefix}join <linkgroup>
 ║╰───────────
 ║╭──❉ *GROUP MENU* ❉──
@@ -27,6 +28,8 @@ const help = (prefix, pushname) => {
 ║│10. ${prefix}setname <teks>
 ║│11. ${prefix}kick <@tagmember>
 ║│12. ${prefix}linkgroup
+║│13. ${prefix}hidetag
+║│14. ${prefix}leave
 ║╰───────────
 ║╭──❉ *KERANG MENU* ❉──
 ║│1. ${prefix}kapankah
@@ -45,12 +48,38 @@ const help = (prefix, pushname) => {
 ║│7. ${prefix}wait <kirim atau reply foto>
 ║│8. ${prefix}ocr
 ║│9. ${prefix}nulis <teks>
+║│10. ${prefix}tomp3
+║│11. ${prefix}hilih
+║│12. ${prefix}ssweb <tipe perangkat>
+║│13. ${prefix}pinterest
+║│14. ${prefix}trendtwit
+║│15. ${prefix}map
+║│16. ${prefix}covid
+║│17. ${prefix}joox <judul lagu>
+║│18. ${prefix}wa.me
+║│19. ${prefix}qrcode
+║│20. ${prefix}ytmp4 <link yt>
+║│21. ${prefix}ytmp3 <link yt>
 ║╰───────────
 ║╭──❉ *OWNER MENU* ❉──
 ║│1. ${prefix}setprefix <prefix>
 ║│2. ${prefix}bc <promosi>
 ║│3. ${prefix}setppbot 
 ║│4. ${prefix}clone @tagmember
+║│5. ${prefix}bcgc
+║╰───────────
+║╭──❉ *PIMBRONE MENU* ❉──
+║│1. ${prefix}artinama
+║╰───────────
+║╭──❉ *PENGETAHUAN MENU* ❉──
+║│1. ${prefix}wiki
+║│2. ${prefix}kbbi
+║╰───────────
+║╭──❉ *ANIME MENU* ❉──
+║│1. ${prefix}animecry
+║│2. ${prefix}animehug
+║│3. ${prefix}neonime
+║│4. ${prefix}glith
 ║╰───────────
 ║╭──❉ *IKLAN* ❉──
 ║│1. Instagram
