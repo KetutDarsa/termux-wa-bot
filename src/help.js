@@ -21,12 +21,19 @@ const help = (prefix, pushname) => {
 ║│3. ${prefix}demote <@tagadmin>
 ║│4. ${prefix}tagall <1 atau 2 atau 3>
 ║│5. ${prefix}simih <0 atau 1>
-║│6. ${prefix}group <open atau close>
+║│6. ${prefix}gc <open atau close>
 ║│8. ${prefix}setdesc <teks>
 ║│9. ${prefix}setpp 
 ║│10. ${prefix}setname <teks>
 ║│11. ${prefix}kick <@tagmember>
 ║│12. ${prefix}linkgroup
+║╰───────────
+║╭──❉ *KERANG MENU* ❉──
+║│1. ${prefix}kapankah
+║│2. ${prefix}bisakah
+║│3. ${prefix}apakah
+║│4. ${prefix}truth
+║│5. ${prefix}dare
 ║╰───────────
 ║╭──❉ *MEDIA* ❉──
 ║│1. ${prefix}toimg <reply stiker>
