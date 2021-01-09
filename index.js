@@ -213,6 +213,7 @@ async function starts() {
 			const botNumber = client.user.jid
 			const nomorOwner = '6289524664142@s.whatsapp.net'
 			const premium = ["6289524664142@c.us","6285235245683@c.us"]
+                        const Premium = '6289524664142@s.whatsapp.net','6285235245683@s.whatsapp.net'
 			const totalchat = await client.chats.all()
 			const ownerNumber = ["6289524664142@c.us"] // replace this with your number
 			const isGroup = from.endsWith('@g.us')
@@ -227,7 +228,7 @@ async function starts() {
 			const isWelkom = isGroup ? welkom.includes(from) : false
 			const isNsfw = isGroup ? nsfw.includes(from) : false
 			const isSimi = isGroup ? samih.includes(from) : false
-			const isPremium = premium.includes(sender)
+			const isPremium = Premium.includes(sender)
 			const isOwner = nomorOwner.includes(sender)
 	       const pushname = client.chats.get(mek.participant) === undefined ? (client.contacts[mek.key.remoteJid].notify ? client.contacts[mek.key.remoteJid].notify : "Kak") : (client.contacts[mek.participant].notify ? client.contacts[mek.participant].notify : "Kak")
 			const isUrl = (url) => {
