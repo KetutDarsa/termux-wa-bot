@@ -10,11 +10,9 @@ const help = (prefix, pushname) => {
 ║berikut beberapa fitur pada bot ini✨
 ╠════════════════════
 ║╭──❉ *INFO* ❉──
-║│1. ${prefix}info
 ║│2. ${prefix}bugreport <lapor bug>
 ║│3. ${prefix}runtime
 ║│4. ${prefix}testime
-║│4. ${prefix}join <linkgroup>
 ║╰───────────
 ║╭──❉ *GROUP MENU* ❉──
 ║│1. ${prefix}clone
