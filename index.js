@@ -961,7 +961,8 @@ async function starts() {
               reply(hasil)
                 break
 			case 'closegc':
-					client.updatePresence(from, Presence.composing) 
+			case 'tutupgc':		
+                                        client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
