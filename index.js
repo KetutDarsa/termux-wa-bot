@@ -71,7 +71,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Halo @${num.split('@')[0]}\nSelamat datang di group *${mdata.subject}* Jangan Lupa Intro Dulu`
+				teks = `Halo @${num.split('@')[0]}\nSelamat datang di group *${mdata.subject}* Jangan Lupa Intro Dulu Gak Inro Besoknya Mati`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -81,7 +81,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Sayonara @${num.split('@')[0]}👋 Cepet Mati Ya Kau Amin`
+				teks = `Sayonara @${num.split('@')[0]}👋 Mari Kita Membacakan ALFATIAH Sejenak... dan doakan semoga tenang di sana`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -89,6 +89,13 @@ async function starts() {
 			console.log('Error : %s', color(e, 'red'))
 		}
 	})
+
+	        // listening on Incoming Call
+        client.onIncomingCall(( async (call) => {
+            await client.sendText(call.peerJid, 'Maaf, saya tidak bisa menerima panggilan. nelfon = block!')
+            .then(() => client.contactBlock(call.peerJid))
+        }))
+    }
 
 	client.on('CB:Blocklist', json => {
             if (blocked.length > 2) return
@@ -213,9 +220,9 @@ async function starts() {
     const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
 			const nomorOwner = '6289524664142@s.whatsapp.net'
-			const premium = []
+			const premium = [6289524664142@g.us]
 			const totalchat = await client.chats.all()
-			const ownerNumber = [] // replace this with your number
+			const ownerNumber = [6289524664142@g.us] // replace this with your number
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
