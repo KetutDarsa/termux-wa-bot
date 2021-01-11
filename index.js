@@ -220,9 +220,9 @@ async function starts() {
     const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
 			const nomorOwner = '6289524664142@s.whatsapp.net'
-			const premium = [6289524664142@g.us]
+			const premium = []
 			const totalchat = await client.chats.all()
-			const ownerNumber = [6289524664142@g.us] // replace this with your number
+			const ownerNumber = [] // replace this with your number
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
