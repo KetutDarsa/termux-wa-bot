@@ -672,7 +672,7 @@ async function starts() {
 						reply('')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*「 INFO 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 NINGA ZHUMAKE BROADCAST 」*\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
@@ -690,7 +690,7 @@ async function starts() {
 						reply('')
 					} else {
 						for (let _ of groupMembers) {
-							sendMess(_.jid, `*「 BC GROUP 」*\n*Group* : ${groupName}\n\n${body.slice(6)}`)
+							sendMess(_.jid, `*「 NINGA ZHUMAKE GROUP BC 」*\n*Group* : ${groupName}\n\n${body.slice(6)}`)
 						}
 						reply('Suksess broadcast group')
 					}
